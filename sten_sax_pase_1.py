@@ -26,7 +26,7 @@ def play_game():
         player_choice = get_player_choice()
         computer_choice = get_computer_choice()
         
-        print(f"\nPlayer: {player_choice}")
+        print(f"Player: {player_choice}")
         print(f"Computer: {computer_choice}")
         
         result = determine_winner(player_choice, computer_choice)
